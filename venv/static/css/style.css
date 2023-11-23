@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/images/services-bg.png");
+}
+
+/* universal section starts here */
+
+.container{
+    width: 80%;
+    margin:0 auto;
+    padding:1%;
+}
+
+/* universal section ends here */
+
+/* nav section starts here */
+.nav-h1{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #323232;
+    padding: 22px;
+
+       
+}
+
+
+nav ul li a span{
+    color: rgb(223, 72, 18);
+}
+.nav-h1 h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+   margin: 11px;
+    font-size: 1.3rem;
+    transition: 1s ease forwards;
+    transition-property: color;
+    color: white;
+    
+   
+}
+
+nav a:hover{
+    color:rgb(223, 72, 18);
+}
+
+
+nav img{
+  width: 23px;
+}
+
+.nav-down-img{
+    background-image: url("./images/banner-bg.png");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    padding: 10%;
+    background-position: center;
+     
+}
+
+.nav-down-img   span::after{
+   content: "\a";
+   /* white-space: pre; */
+   white-space-collapse:break-spaces;
+   line-height: 30px;
+}
+
+.nav-down-img p{
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+
+.nav-down-img h2{
+    font-size: 3.8rem;
+    padding-bottom: 20px;
+    color: #323232;
+}
+
+
+.nav-down-img .cofe{
+    font-size: 4.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-down-img button{
+    padding: 15px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    transition: 1s ease forwards;
+    transition-property: background-color,color;
+    
+}
+
+.nav-down-img button:hover{
+    background-color:rgb(223, 72, 18) ;
+}
+/* nav section ends here */
+
+
+
+/* about section starts here */
+#about .about-top{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+   gap: 30px;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+#about  span::after{
+    content: "\a";
+    white-space: pre;
+    
+
+}
+
+#about img{
+    width: 500px;
+}
+
+#about h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: rgb(223, 72, 18);
+}
+
+    #about p{
+    font-size: 1.2rem;
+}    
+
+#about button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    transition: 1s ease forwards;
+    transition-property: background-color,color;
+}
+
+
+#about button:hover{
+    background-color: rgb(223, 72, 18);
+}
+
+/* about section ends here  */
+
+/* gallery section starts here */
+#gallery .gallery-top{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ 
+ background-color: white;
+ width: 100%;
+ height: 100;
+}
+
+#gallery h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 40px;
+    color: rgb(223, 72, 18);
+}
+
+#gallery p{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+#gallery .img-responsive{
+ 
+  
+    display: block;
+ 
+    padding: 20px;
+    filter: grayscale(0);
+    transition: 0.1s ease filter;
+   
+}
+
+#gallery .img-responsive:hover{
+    
+   filter: grayscale(20);
+}
+
+#gallery li{
+    list-style-type: none;
+}
+
+#gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#gallery button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    transition: 1s ease forwards;
+    transition-property: background-color,color;
+} 
+
+#gallery button:hover{
+    background-color: rgb(223, 72, 18);
+}
+
+/* gallery section ends here */
+
+/* services section starts here */
+
+
+#service .serv-h{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+#service .serv-p{
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#service .service-all{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 30px;
+    
+    transition:0s ease  visibilty ;
+   
+    
+}
+
+#service .service-all:hover{
+    visibility: visible;
+}
+
+
+
+
+#service .serv-img1{
+ background-color:  rgb(223, 72, 18);
+ padding: 90px;
+ 
+
+}
+
+
+
+#service .serv-img2{
+    background-color:  rgb(223, 72, 18);
+    padding: 90px;
+     
+ }
+
+
+   #service .serv-img3{
+    background-color:  rgb(223, 72, 18);
+    padding: 90px;
+}
+
+
+#service button{
+    padding: 15px;
+  margin-top: 80px;
+    width: 200px;
+    border-radius: 30px;
+    background-color:  black;
+    color: white;
+    font-size: 1rem;
+  
+  
+}
+
+
+#service button:hover + .hide{
+  display: block;
+  color: red;
+   
+}
+
+
+
+
+/* service section ends here */
+
+
+
+/* contact section starts here */
+#contact .contact-top{
+    background-color: white;
+    width: 100%;
+    height: 100;
+ 
+  
+}
+
+#contact .contact-down{
+    background-image: url("./images/img-9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 80vh;
+    padding: 100px;
+
+    
+}
+
+#contact form{
+
+border-radius: 15px;
+display: grid;
+max-width: 700px;
+margin-top: 50px;
+
+
+   
+   
+}
+
+#contact .contact-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact form input{
+    width: 100%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 1%;
+    padding: 2%;
+    
+}
+
+
+
+#contact form textarea{
+    
+    /* height: 20vh; */
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    /* width: 500px; */
+    padding: 2%;
+}
+
+#contact button{
+    padding: 15px;
+  
+    width: 200px;
+    border-radius: 30px;
+    background-color:  rgb(223, 72, 18);
+    color: white;
+    font-size: 1rem;
+    transition: 1s ease forwards;
+    transition-property: background-color,color;
+    text-align: center;
+    margin-left: 100px;
+    
+} 
+
+#contact button:hover{
+    background-color: rgb(231, 213, 213);
+    color: black;
+}
+
+
+/* contact section ends here */
+
+
+/* footer starts here */
